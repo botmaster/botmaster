@@ -1,5 +1,13 @@
-### Hi, that's me PASCAL ACHARD 
-## SENIOR FRONTEND DEVELOPER
+### Hi, that's me Pascal Achard
+Senior frontend developer
+
+![GitHub Logo](photo-pascal-achard.jpg)
+
+###Links about me
+- [www](https://www.pascal-achard.me)
+- [Twitter](https://twitter.com/botmaster)
+- [Linkedin](http://www.linkedin.com/in/pascal-achard)
+
 
 <!--
 **botmaster/botmaster** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
