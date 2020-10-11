@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hi, that's me PASCAL ACHARD 
+## SENIOR FRONTEND DEVELOPER
 
 <!--
 **botmaster/botmaster** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
