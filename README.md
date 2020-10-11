@@ -1,7 +1,6 @@
+![Pascal Achard](photo-pascal-achard.jpg)
 ### Hi, that's me Pascal Achard
 Senior frontend developer
-
-![GitHub Logo](photo-pascal-achard.jpg)
 
 ### Links about me
 - [www](https://www.pascal-achard.me)
