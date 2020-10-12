@@ -1,6 +1,6 @@
 ![Pascal Achard](photo-pascal-achard.jpg)
 ### Hi, that's me Pascal Achard
-Senior frontend developer
+> Senior frontend developer
 
 ### Links about me
 - [www](https://www.pascal-achard.me)
