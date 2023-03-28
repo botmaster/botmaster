@@ -26,28 +26,6 @@ let DATA = {
 };
 
 async function setWeatherInformation() {
-    /*    await fetch(
-            `https://api.openweathermap.org/data/2.5/weather?q=grenoble&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
-        )
-            .then(r => r.json())
-            .then(r => {
-                DATA.city_temperature = Math.round(r.main.temp);
-                DATA.city_weather = r.weather[0].description;
-                DATA.city_weather_icon = r.weather[0].icon;
-                DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString(locale, {
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    timeZone: timezone,
-                });
-                DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString(locale, {
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    timeZone: timezone,
-                });
-                console.log('DATA', DATA);
-            });*/
-
-
     try {
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=grenoble&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`);
         const data = await response.json();
