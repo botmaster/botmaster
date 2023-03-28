@@ -1,4 +1,3 @@
-
 ![Pascal Achard](./images/photo-pascal-achard.jpg)
 # Hi, it's me Pascal Achard
 > Senior frontend developer
@@ -10,7 +9,9 @@
 
 
 ## I live in Grenoble (french Alpes)
-Currently, the weather is: **1**°C, **scattered clouds**.
+Currently, the weather is: **0**°C, **broken clouds**.
+
+<img src="http:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;w&#x2F;04n.png" alt="">
 
 Today, the sun rises at 07:25 AM and sets at 07:57 PM
 
