@@ -1,0 +1,13 @@
+{
+  "name": "botmaster",
+  "version": "1.0.0",
+  "description": "Create a Self-Updating README.md for my  GitHub Profile",
+  "main": "index.js",
+  "repository": "git@github.com:botmaster/botmaster.git",
+  "author": "botmaster <pascal.achard@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "mustache": "^4.2.0"
+  }
+}
