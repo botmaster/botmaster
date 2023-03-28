@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "Create a Self-Updating README.md for my  GitHub Profile",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:botmaster/botmaster.git",
   "author": "botmaster <pascal.achard@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "mustache": "^4.2.0"
+    "dotenv": "^16.0.3",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.3.1",
+    "puppeteer": "^19.8.0"
   }
 }
