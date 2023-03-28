@@ -1,34 +1,113 @@
-// index.js
-const Mustache = require('mustache');
-const fs = require('fs');
+import fetch from 'node-fetch';
+
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+import Mustache from 'mustache';
+import fs from 'fs';
+import puppeteerService from './services/puppeteer.service.js'
+
+dotenv.config()
+
+// const puppeteerService = require('./services/puppeteer.service');
+
 const MUSTACHE_MAIN_DIR = './main.mustache';
-/**
- * DATA is the object that contains all
- * the data to be provided to Mustache
- * Notice the "name" and "date" property.
- */
+const locale = 'en-US'
+const timezone = 'Europe/Paris'
+
 let DATA = {
-    name: 'Pascal',
-    date: new Date().toLocaleDateString('en-US', {
+    refresh_date: new Date().toLocaleDateString(locale, {
         weekday: 'long',
         month: 'long',
         day: 'numeric',
         hour: 'numeric',
         minute: 'numeric',
         timeZoneName: 'short',
-        timeZone: 'Europe/Paris',
+        timeZone: timezone,
     }),
 };
-/**
- * A - We open 'main.mustache'
- * B - We ask Mustache to render our file with the data
- * C - We create a README.md file with the generated output
- */
-function generateReadMe() {
-    fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
+
+async function setWeatherInformation() {
+    /*    await fetch(
+            `https://api.openweathermap.org/data/2.5/weather?q=grenoble&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`
+        )
+            .then(r => r.json())
+            .then(r => {
+                DATA.city_temperature = Math.round(r.main.temp);
+                DATA.city_weather = r.weather[0].description;
+                DATA.city_weather_icon = r.weather[0].icon;
+                DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString(locale, {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    timeZone: timezone,
+                });
+                DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString(locale, {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    timeZone: timezone,
+                });
+                console.log('DATA', DATA);
+            });*/
+
+
+    try {
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=grenoble&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`);
+        const data = await response.json();
+
+        DATA.openweather = {
+            city_temp: Math.round(data.main.temp),
+            city_weather: data.weather[0].description,
+            city_weather_icon: data.weather[0].icon,
+            sun_rise: new Date(data.sys.sunrise * 1000).toLocaleString(locale, {
+                hour: '2-digit',
+                minute: '2-digit',
+                timeZone: timezone,
+            }),
+            sun_set: new Date(data.sys.sunset * 1000).toLocaleString(locale, {
+                hour: '2-digit',
+                minute: '2-digit',
+                timeZone: timezone,
+            })
+        }
+
+    } catch (error) {
+        console.log('Error', error);
+        process.exit();
+    }
+}
+
+async function setInstagramPosts() {
+    DATA.images = await puppeteerService.getLatestInstagramPostsFromAccount('villedegrenoble', 6);
+}
+
+async function generateReadMe() {
+    await fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
         if (err) throw err;
         const output = Mustache.render(data.toString(), DATA);
         fs.writeFileSync('README.md', output);
     });
 }
-generateReadMe();
+
+async function action() {
+    /**
+     * Fetch Weather
+     */
+    await setWeatherInformation();
+
+    /**
+     * Get pictures
+     */
+    await setInstagramPosts();
+
+    /**
+     * Generate README
+     */
+    await generateReadMe();
+
+    /**
+     * Fermeture de la boutique 👋
+     */
+    await puppeteerService.close();
+
+    console.log(DATA)
+}
+
+action().then();
