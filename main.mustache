@@ -14,11 +14,13 @@ Currently, the weather is: **{{openweather.city_temp}}**°C, **{{openweather.cit
 Today, the sun rises at {{openweather.sun_rise}} and sets at {{openweather.sun_set}}
 
 
-<ul style="display: flex; flex-wrap: wrap; list-style-type: none; gap: 20px;">
+<p>
     {{#images}}
-        <li><img src="{{.}}" alt="" width="200"/></li>
+        <img src="{{.}}" alt="" width="200"/>
     {{/images}}
-</ul>
+</p>
+
+
 
 <!--
 **botmaster/botmaster** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
