@@ -41,7 +41,7 @@ async function setWeatherInformation() {
             city_temp: Math.round(data.main.temp),
             city_weather: data.weather[0].description,
             city_weather_icon: data.weather[0].icon,
-            city_weather_icon_url:"http://openweathermap.org/img/w/" + data.weather[0].icon + ".png",
+            city_weather_icon_url:"https://openweathermap.org/img/w/" + data.weather[0].icon + ".png",
             sun_rise: new Date(data.sys.sunrise * 1000).toLocaleString(locale, {
                 hour: '2-digit',
                 minute: '2-digit',

@@ -11,13 +11,13 @@
 ## I live in Grenoble (french Alpes)
 Currently, the weather is: **{{openweather.city_temp}}**°C, **{{openweather.city_weather}}**.
 
-<img src="{{openweather.city_weather_icon_url}}" alt="">
+<img src="{{{openweather.city_weather_icon_url}}}" alt="">
 
 Today, the sun rises at {{openweather.sun_rise}} and sets at {{openweather.sun_set}}
 
 
 <p style="display: flex; flex-wrap: wrap; gap: 20px;">
     {{#images}}
-        <img src="{{.}}" alt="" width="200"/>
+        <img src="{{{.}}}" alt="" width="200"/>
     {{/images}}
 </p>
