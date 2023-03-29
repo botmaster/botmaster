@@ -32,6 +32,7 @@ class PuppeteerService {
             await this.init();
         }
         this.page = await this.browser.newPage();
+        await this.page.setCacheEnabled(false);
 
         await this.page.setExtraHTTPHeaders({
             'Accept-Language': 'en-US',
