@@ -26,8 +26,13 @@ let DATA = {
 };
 
 async function setWeatherInformation() {
+    if(!process.env.OPEN_WEATHER_MAP_KEY) {
+        throw new Error("OPEN_WEATHER_MAP_KEY not found!")
+    }
     try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=grenoble&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`);
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=grenoble&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`;
+        console.log("url: ", url);
+        const response = await fetch(url);
         const data = await response.json();
 
         console.log(data)
