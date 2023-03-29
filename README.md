@@ -9,7 +9,7 @@
 
 
 ## I live in Grenoble (french Alpes)
-Currently, the weather is: **5**°C, **overcast clouds**.
+Currently, the weather is: **12**°C, **overcast clouds**.
 
 <img src="http:&#x2F;&#x2F;openweathermap.org&#x2F;img&#x2F;w&#x2F;04d.png" alt="">
 
