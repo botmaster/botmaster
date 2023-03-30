@@ -19,7 +19,7 @@ class PuppeteerService {
                 // '--proxy-server=http=194.67.37.90:3128',
                 // '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
             ],
-            // headless: false,
+             headless: false,
         });
     }
 
@@ -28,6 +28,7 @@ class PuppeteerService {
      * @param {string} url
      */
     async goToPage(url) {
+        console.log('goToPage', url);
         if (!this.browser) {
             await this.init();
         }
