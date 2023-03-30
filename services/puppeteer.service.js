@@ -7,6 +7,7 @@ class PuppeteerService {
     page;
 
     async init() {
+        console.log("init")
         this.browser = await puppeteer.launch({
             args: [
                 '--no-sandbox',
@@ -19,7 +20,7 @@ class PuppeteerService {
                 // '--proxy-server=http=194.67.37.90:3128',
                 // '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"', //
             ],
-             headless: true,
+             //headless: false,
         });
     }
 
@@ -38,7 +39,9 @@ class PuppeteerService {
             'Accept-Language': 'en-US',
         });
 
-        await this.page.goto(url);
+        await this.page.goto(url, {
+            waitUntil: `networkidle0`,
+        });
     }
 
     async close() {
@@ -55,19 +58,20 @@ class PuppeteerService {
         try {
             const url = `https://www.instagram.com/${acc}`;
             await this.goToPage(url);
-            await this.page.waitForTimeout(6000)
+            // await this.page.waitForTimeout(1000)
+            console.log('wait for selector', this.page.url());
+            await this.page.waitForSelector('img');
 
-            const imageUrls = await this.page.evaluate(() => {
-                const imageElements = document.querySelectorAll('article img');
-                return Array.from(imageElements).filter(img => img.src.includes('cdninstagram')).map(img => {
-                    return img.src;
-                });
+            const images = await this.page.evaluate(() => {
+                const imgs = document.querySelectorAll('article img');
+                return Array.from(imgs).map(img => img.src);
             });
-            if(!imageUrls || imageUrls.length === 0) {
+            console.log("images", images)
+            if(!images || images.length === 0) {
                 console.error('No image found');
                 return []
             }
-            return imageUrls.slice(0, n)
+            return images.slice(0, n)
         } catch (error) {
             console.log('Error', error);
             process.exit();
