@@ -54,23 +54,15 @@ class PuppeteerService {
         try {
             const url = `https://www.instagram.com/${acc}`;
             await this.goToPage(url);
-
-            // 🔽 Doesn't seem to be needed
-            // await this.page.waitForFunction(`document.body.scrollHeight > ${previousHeight}`);
-            //await this.page.waitFor(1000);
-
-            /*const nodes = await this.page.evaluate(() => {
-                console.log("coucou")
-                const images = document.querySelectorAll(".post-image");
-                console.log('images: ', images)
-                return [].map.call(images, img => img.src);
-            });*/
-
             await this.page.waitForTimeout(3000)
 
             const imageUrls = await this.page.evaluate(() => {
                 const imageElements = document.querySelectorAll('img');
-                return Array.from(imageElements).map(img => img.src);
+                return Array.from(imageElements).map(img => {
+                    if (img.src.includes('cdninstagram')) {
+                        return img.src;
+                    }
+                });
             });
             return imageUrls.slice(0, n)
         } catch (error) {
