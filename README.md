@@ -11,7 +11,7 @@
 ## I live in Grenoble (french Alpes)
 Currently, the weather is: **10**°C, **overcast clouds**.
 
-<img src="https://openweathermap.org/img/w/04d.png" alt="">
+<img src="https://openweathermap.org/img/wn/04d@2x.png" alt="">
 
 Today, the sun rises at 07:21 AM and sets at 08:00 PM
 
