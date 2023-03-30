@@ -54,7 +54,7 @@ class PuppeteerService {
         try {
             const url = `https://www.instagram.com/${acc}`;
             await this.goToPage(url);
-            await this.page.waitForTimeout(3000)
+            await this.page.waitForTimeout(6000)
 
             const imageUrls = await this.page.evaluate(() => {
                 const imageElements = document.querySelectorAll('article img');
