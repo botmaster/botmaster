@@ -57,13 +57,15 @@ class PuppeteerService {
             await this.page.waitForTimeout(3000)
 
             const imageUrls = await this.page.evaluate(() => {
-                const imageElements = document.querySelectorAll('img');
-                return Array.from(imageElements).map(img => {
-                    if (img.src.includes('cdninstagram')) {
-                        return img.src;
-                    }
+                const imageElements = document.querySelectorAll('article img');
+                return Array.from(imageElements).filter(img => img.src.includes('cdninstagram')).map(img => {
+                    return img.src;
                 });
             });
+            if(!imageUrls || imageUrls.length === 0) {
+                console.error('No image found');
+                return []
+            }
             return imageUrls.slice(0, n)
         } catch (error) {
             console.log('Error', error);
