@@ -10,8 +10,9 @@ dotenv.config()
 // const puppeteerService = require('./services/puppeteer.service');
 
 const MUSTACHE_MAIN_DIR = './main.mustache';
-const locale = 'en-US'
-const timezone = 'Europe/Paris'
+const locale = 'en-US';
+const timezone = 'Europe/Paris';
+const imageCount = 8;
 
 let DATA = {
     refresh_date: new Date().toLocaleDateString(locale, {
@@ -58,7 +59,7 @@ async function setWeatherInformation() {
 }
 
 async function setInstagramPosts() {
-    DATA.images = await puppeteerService.getLatestInstagramPostsFromAccount('villedegrenoble', 6);
+    DATA.images = await puppeteerService.getLatestInstagramPostsFromAccount('villedegrenoble', imageCount);
 }
 
 async function generateReadMe() {
