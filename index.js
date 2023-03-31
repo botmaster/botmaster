@@ -31,7 +31,7 @@ async function setWeatherInformation() {
         throw new Error("OPEN_WEATHER_MAP_KEY not found!")
     }
     try {
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=grenoble&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?id=6454071&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=metric`;
         const response = await fetch(url);
         const data = await response.json();
 
