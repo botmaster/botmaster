@@ -17,6 +17,10 @@ class PuppeteerService {
                 '--incognito'
             ],
             headless: 'new',
+            defaultViewport: {
+                width:1920,
+                height:1080
+            }
         });
     }
 
@@ -36,7 +40,7 @@ class PuppeteerService {
         });
 
         await this.page.goto(url, {
-            waitUntil: 'networkidle0',
+            waitUntil: 'networkidle2',
         });
     }
 
