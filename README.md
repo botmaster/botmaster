@@ -3,7 +3,7 @@
 > Senior frontend developer
 
 ## Links about me
-- [www](https://www.pascal-achard.com)
+- [www](https://pascal-achard.com)
 - [Twitter](https://twitter.com/botmaster)
 - [Linkedin](http://www.linkedin.com/in/pascal-achard)
 
