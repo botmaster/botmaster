@@ -12,7 +12,7 @@
 <img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
 
 Currently, the weather is: **11**°C, **clear sky**.
-Today, the sun rises at 08:05 AM and sets at 05:32 PM
+Today, the sun rises at 08:04 AM and sets at 05:34 PM
 
 Above are the last 8 pictures posted by <a href="https://www.instagram.com/villedegrenoble/" target="_blank"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/> @villedegrenoble!</a>
 
@@ -29,7 +29,7 @@ Above are the last 8 pictures posted by <a href="https://www.instagram.com/ville
 
 ------------
 <p>This README file is generated <b>every 3 hours</b>!
-    <br />Last refresh: Thursday, January 25 at 7:05 PM GMT+1
+    <br />Last refresh: Friday, January 26 at 1:18 AM GMT+1
     <br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own by following this tutorial.</a>
 </p>
 <p><a href="https://github.com/botmaster/botmaster/actions/workflows/main.yaml"><img alt="" src="https://github.com/botmaster/botmaster/actions/workflows/main.yaml/badge.svg" /></a></p>
