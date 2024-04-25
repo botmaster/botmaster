@@ -9,7 +9,7 @@
 
 
 ## I live in Grenoble (french Alpes)
-<img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+<img src="https://openweathermap.org/img/wn/04d@2x.png" alt="">
 
 Currently, the weather is: **4**°C, **broken clouds**.
 Today, the sun rises at 06:34 AM and sets at 08:35 PM
@@ -29,7 +29,7 @@ Above are the last 8 pictures posted by <a href="https://www.instagram.com/ville
 
 ------------
 <p>This README file is generated <b>every 3 hours</b>!
-    <br />Last refresh: Thursday, April 25 at 2:20 AM GMT+2
+    <br />Last refresh: Thursday, April 25 at 8:06 AM GMT+2
     <br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own by following this tutorial.</a>
 </p>
 <p><a href="https://github.com/botmaster/botmaster/actions/workflows/main.yaml"><img alt="" src="https://github.com/botmaster/botmaster/actions/workflows/main.yaml/badge.svg" /></a></p>
