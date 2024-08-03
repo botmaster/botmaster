@@ -7,8 +7,6 @@ import puppeteerService from './services/puppeteer.service.js'
 
 dotenv.config()
 
-// const puppeteerService = require('./services/puppeteer.service');
-
 const MUSTACHE_MAIN_DIR = './main.mustache';
 const locale = 'en-US';
 const timezone = 'Europe/Paris';
