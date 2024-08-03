@@ -74,7 +74,7 @@ class PuppeteerService {
             }
             return images.slice(0, n);
         } catch (error) {
-            console.log('Error', error);
+            console.log('Error -> ', error);
             process.exit();
         }
     }
