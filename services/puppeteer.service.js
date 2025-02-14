@@ -82,4 +82,5 @@ class PuppeteerService {
 
 const puppeteerService = new PuppeteerService();
 
+
 export default puppeteerService;
