@@ -60,10 +60,10 @@ class PuppeteerService {
             await this.goToPage(url);
             console.log('wait for selector', this.page.url());
 
-            await this.page.waitForSelector('.post-image');
+            await this.page.waitForSelector('.posts__video-item');
 
             const images = await this.page.evaluate(() => {
-                const imgs = document.querySelectorAll(".post-image");
+                const imgs = document.querySelectorAll(".posts__video-item > img");
                 return Array.from(imgs).map(img => img.src);
             });
 
