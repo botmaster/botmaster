@@ -14,9 +14,9 @@ class PuppeteerService {
                 '--window-position=0,0',
                 '--ignore-certifcate-errors',
                 '--ignore-certifcate-errors-spki-list',
-                '--incognito'
+                '--incognito',
             ],
-            headless: 'new',
+            headless: 'shell',
             defaultViewport: {
                 width:1920,
                 height:1080
@@ -39,8 +39,12 @@ class PuppeteerService {
             'Accept-Language': 'en-US',
         });
 
+        const ua =
+            "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.3";
+        await this.page.setUserAgent(ua);
+
         await this.page.goto(url, {
-            waitUntil: 'networkidle2',
+            waitUntil: 'domcontentloaded',
         });
     }
 
