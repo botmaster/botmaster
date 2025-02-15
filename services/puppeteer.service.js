@@ -60,15 +60,16 @@ class PuppeteerService {
      */
     async getLatestInstagramPostsFromAccount(acc, n = 3) {
         try {
-            const url = `https://www.picuki.com/profile/${acc}`;
+            const url = `https://www.instagram.com/${acc}`;
             await this.goToPage(url);
             console.log('wait for selector', this.page.url());
 
-            await this.page.waitForSelector('.posts-video');
+            await this.page.waitForSelector('section');
 
             const images = await this.page.evaluate(() => {
-                const imgs = document.querySelectorAll(".posts__video-item > img");
-                return Array.from(imgs).map(img => img.src);
+                const imgs = document.querySelectorAll("section img");
+                const filteredImgs = Array.from(imgs).filter(img => img.alt.startsWith("Photo by Ville de Grenoble"));
+                return filteredImgs.map(img => img.src);
             });
 
             console.log('images', images);
