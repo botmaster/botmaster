@@ -15,11 +15,11 @@ Currently, the weather is: **{{openweather.city_temp}}**°C, **{{openweather.cit
 Today, the sun rises at {{openweather.sun_rise}} and sets at {{openweather.sun_set}}
 
 {{#images.length}}
-Above are the last {{images.length}} pictures posted by <a href="https://www.instagram.com/villedegrenoble/" target="_blank"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/> @villedegrenoble!</a>
+Above are the last {{images.length}} pictures posted by <a href="https://bsky.app/profile/villedegrenoble.bsky.social" target="_blank"><img alt="" src="https://web-cdn.bsky.app/static/favicon-32x32.png" width="32"/> @villedegrenoble.bsky.social</a>
 
 <p style="display: flex; flex-wrap: wrap; gap: 20px;">
     {{#images}}
-        <img src="{{{.}}}" alt="" width="200"/>
+        <img src="{{{.}}}" alt="" width="200" style="object-fit: cover;"/>
     {{/images}}
 </p>
 {{/images.length}}
