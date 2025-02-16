@@ -57,7 +57,7 @@ async function setWeatherInformation() {
 }
 
 async function setInstagramPosts() {
-    DATA.images = await puppeteerService.getLatestInstagramPostsFromAccount('villedegrenoble', imageCount);
+    DATA.images = await puppeteerService.getLatesBlueskyPostsFromAccount('villedegrenoble.bsky.social', imageCount);
 }
 
 async function generateReadMe() {

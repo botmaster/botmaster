@@ -40,7 +40,7 @@ class PuppeteerService {
         });
 
         const ua =
-            "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.3";
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36";
         await this.page.setUserAgent(ua);
 
         await this.page.goto(url, {
@@ -58,17 +58,20 @@ class PuppeteerService {
      * @param {string} acc Account to crawl
      * @param {number} n Qty of image to fetch
      */
-    async getLatestInstagramPostsFromAccount(acc, n = 3) {
+    async getLatesBlueskyPostsFromAccount(acc, n = 3) {
         try {
-            const url = `https://www.instagram.com/${acc}`;
+            const url = `https://bsky.app/profile/${acc}`;
+            console.log('getLatestInstagramPostsFromAccount', url);
             await this.goToPage(url);
-            console.log('wait for selector', this.page.url());
 
-            await this.page.waitForSelector('section');
+            console.log('wait for selector', 'div[role="link"]');
+            await this.page.waitForSelector('div[role="link"]', {
+                visible: true,
+            });
 
             const images = await this.page.evaluate(() => {
-                const imgs = document.querySelectorAll("section img");
-                const filteredImgs = Array.from(imgs).filter(img => img.alt.startsWith("Photo by Ville de Grenoble"));
+                const imgs = document.querySelectorAll('div[data-expoimage] img');
+                const filteredImgs = Array.from(imgs).filter(img => img.src.startsWith( 'https://cdn.bsky.app/img/feed_thumbnail'))
                 return filteredImgs.map(img => img.src);
             });
 
