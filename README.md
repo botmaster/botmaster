@@ -9,10 +9,10 @@
 
 
 ## I live in Grenoble (french Alpes)
-<img src="https://openweathermap.org/img/wn/03n@2x.png" alt="">
+<img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
 
-Currently, the weather is: **19**°C, **scattered clouds**.
-Today, the sun rises at 06:18 AM and sets at 09:08 PM
+Currently, the weather is: **16**°C, **overcast clouds**.
+Today, the sun rises at 06:19 AM and sets at 09:07 PM
 
 Above are the last 8 pictures posted by <a href="https://bsky.app/profile/villedegrenoble.bsky.social" target="_blank"><img alt="" src="https://web-cdn.bsky.app/static/favicon-32x32.png" width="32"/> @villedegrenoble.bsky.social</a>
 
@@ -29,7 +29,7 @@ Above are the last 8 pictures posted by <a href="https://bsky.app/profile/villed
 
 ------------
 <p>This README file is generated <b>every 10 hours</b>!
-    <br />Last refresh: Tuesday, July 29 at 10:09 PM GMT+2
+    <br />Last refresh: Wednesday, July 30 at 2:37 AM GMT+2
     <br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own by following this tutorial.</a>
 </p>
 <p><a href="https://github.com/botmaster/botmaster/actions/workflows/main.yaml"><img alt="" src="https://github.com/botmaster/botmaster/actions/workflows/main.yaml/badge.svg" /></a></p>
