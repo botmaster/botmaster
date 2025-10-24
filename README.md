@@ -9,14 +9,15 @@
 
 
 ## I live in Grenoble (french Alpes)
-<img src="https://openweathermap.org/img/wn/01n@2x.png" alt="">
+<img src="https://openweathermap.org/img/wn/04d@2x.png" alt="">
 
-Currently, the weather is: **8**°C, **clear sky**.
+Currently, the weather is: **9**°C, **overcast clouds**.
 Today, the sun rises at 08:04 AM and sets at 06:37 PM
 
 Above are the last 8 pictures posted by <a href="https://bsky.app/profile/villedegrenoble.bsky.social" target="_blank"><img alt="" src="https://web-cdn.bsky.app/static/favicon-32x32.png" width="32"/> @villedegrenoble.bsky.social</a>
 
 <p style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreiflfzbnb2l3ybxqcoss3mbdy375zkofedzhzjascmriykkzv5borm@jpeg" alt="" width="200" style="object-fit: cover;"/>
         <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreiehg7ww6xfmpom4zjhf3xlaqgcdvnay45ahbqpqvxvfxjekfdp7vu@jpeg" alt="" width="200" style="object-fit: cover;"/>
         <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreidbke6vsvkrs6gopfcxarb3scx5cey6uzdc6unnojqwzdo6mt5rge@jpeg" alt="" width="200" style="object-fit: cover;"/>
         <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreig7inh45hptjdcciybrselkrbpy2e3c6ljywjpzxqwl27ghhrh5eq@jpeg" alt="" width="200" style="object-fit: cover;"/>
@@ -24,12 +25,11 @@ Above are the last 8 pictures posted by <a href="https://bsky.app/profile/villed
         <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreiebxr3gry4ruoqbu6d4ectjpg5qwup76nuoo4oxwocauburxjsfsu@jpeg" alt="" width="200" style="object-fit: cover;"/>
         <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreia2deekl6nfeixdrwldcwumfwzx35oypwf6i5qy5s6o6vz3rp5i3m@jpeg" alt="" width="200" style="object-fit: cover;"/>
         <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreif44dqv7om6yp2l2ft5osvhbkti4446itp5cff6bs2f7u33sqjtaq@jpeg" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreihkezqdh256gdrc4l7hnuqdqzuwuu2sqnrjehz5e3w3ub6jnywnr4@jpeg" alt="" width="200" style="object-fit: cover;"/>
 </p>
 
 ------------
 <p>This README file is generated <b>every 10 hours</b>!
-    <br />Last refresh: Friday, October 24 at 2:30 AM GMT+2
+    <br />Last refresh: Friday, October 24 at 12:09 PM GMT+2
     <br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own by following this tutorial.</a>
 </p>
 <p><a href="https://github.com/botmaster/botmaster/actions/workflows/main.yaml"><img alt="" src="https://github.com/botmaster/botmaster/actions/workflows/main.yaml/badge.svg" /></a></p>
