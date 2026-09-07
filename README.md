@@ -9,27 +9,27 @@
 
 
 ## I live in Grenoble (french Alpes)
-<img src="https://openweathermap.org/img/wn/10n@2x.png" alt="">
+<img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
 
-Currently, the weather is: **23**°C, **moderate rain**.
+Currently, the weather is: **33**°C, **few clouds**.
 Today, the sun rises at 07:05 AM and sets at 08:04 PM
 
 Above are the last 8 pictures posted by <a href="https://bsky.app/profile/villedegrenoble.bsky.social" target="_blank"><img alt="" src="https://web-cdn.bsky.app/static/favicon-32x32.png" width="32"/> @villedegrenoble.bsky.social</a>
 
 <p style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreidlzh22kqspv6nztonscecxja3dvfjkfusjofg5lo7w7gzfexaqce" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreifbwif7l545wcyzt4zvxqvydmnomw674uafc4oiwtricty46637lm" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreibc7xirb2kstuiy4gnptf4wc2yc6czr7wocpypyj76ovza55cxcvy" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreibuw6quwv4p7d6ph7z6ostvs6amkfq652cnoobzs5zvv2au23xokq" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreihgu4lkj2ogmvmbrim2555kdstt5pngg7lfj5difjvge3wvxpwoze" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreicpsms6f5iv4rvp563hz52eie7rp67u2gmrqnoz3f3ahu2x4ncxam" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreihq5cbjgh3iih6dxmeiczp7gjctf5zzvbj4deacj7zp4b3r3x6iki" alt="" width="200" style="object-fit: cover;"/>
         <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreigagp2iwwczqrnaxjz5ah2u57evh2udszsmvn6ru67f64ywxpsedi" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreig5gvwxa2ah3fwzay3l3jel7zfmwxueylwclf3wvbtwwh75bvexvu" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreibsw3t5ywn6cfjvcnrvr23zn5avwi3j4c7orsgi3vdzs63xrwu4gq" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreia7gh3tsocurhmwys4gtczm3e3yilulzsqsxfxb622y5ddeubu42y" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreiddvvbffzr4jahqlbdcln7t4z7um6blxem6zbvrr7b6k6ebgearhq" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreih2uv4zhc5uxoryqoxe2q7txk4laig7efatb57brkhqhywefalen4" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreihzhsr57xfnnc3butup5gii25bfo3vcbnltcsrik6kx3ppykkpjjq" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreielqmtzqpsnuruwkn5aa22vcrnmehmfui6dsq35vyjd2rmlbnq3ee" alt="" width="200" style="object-fit: cover;"/>
 </p>
 
 ------------
 <p>This README file is generated <b>every 10 hours</b>!
-    <br />Last refresh: Monday, September 7 at 6:10 AM GMT+2
+    <br />Last refresh: Monday, September 7 at 5:43 PM GMT+2
     <br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own by following this tutorial.</a>
 </p>
 <p><a href="https://github.com/botmaster/botmaster/actions/workflows/main.yaml"><img alt="" src="https://github.com/botmaster/botmaster/actions/workflows/main.yaml/badge.svg" /></a></p>
