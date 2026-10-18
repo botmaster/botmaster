@@ -9,27 +9,27 @@
 
 
 ## I live in Grenoble (french Alpes)
-<img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+<img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
 
-Currently, the weather is: **11**°C, **overcast clouds**.
+Currently, the weather is: **9**°C, **moderate rain**.
 Today, the sun rises at 07:56 AM and sets at 06:47 PM
 
 Above are the last 8 pictures posted by <a href="https://bsky.app/profile/villedegrenoble.bsky.social" target="_blank"><img alt="" src="https://web-cdn.bsky.app/static/favicon-32x32.png" width="32"/> @villedegrenoble.bsky.social</a>
 
 <p style="display: flex; flex-wrap: wrap; gap: 20px;">
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreibgtaeh6w2xmsvu6dips2golyi54lgu4sh5xztnh2ps4gv275yn3u" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreibgrkwoyugplgra4sah22yuf57irmr5y5d54hih2ndcb3ywl2lp64" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreibgrkwoyugplgra4sah22yuf57irmr5y5d54hih2ndcb3ywl2lp64" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreigeuvhjrvkqsgdy5p6wd72rqof4i454vtcpgbwkbipiqh65ciiyc4" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreialywqy4vo3cfwql7dn6izlk7lcjzhfceo4hntjqwz7owfx2okcvu" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreih2bglx2p3fn333sj74q5ok7dqu4zdg2v6twnzo2fd2oknvlggkae" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreicz4amzdzuupsdaz3jmf4333e7cqd2yuesyqwsnihlyvmbvlsfcji" alt="" width="200" style="object-fit: cover;"/>
-        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreiht67ql6o45pe3hiiprw4cx2pzwshfb2tzwiy36lostzb7ied3uva" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreig36cyyby6zgqxuyei4dr2emj5hft5qrxdianhxiajcexlm3hi7rm" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreiegcd3cmtkihww77cgscimyiq3zdpgvp6zbbphwzuvxkamcpp6v24" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreifsdnz5miopxe4symjx5hhnhxmlq4k7gcecflezrn6rcnppidj3fe" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreid2y2keawtnt5hwjuxcwxj6z463o57xw6lluwjhisjnvef3hhuiu4" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreihnazjby6z7mraehfxicub5433j3cfb2piw4npsphkvqfxhcrc6re" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreiatslyxqfz2eozpqi3ikulgwgg6cy6iypbld7moyetqhrbf6uk3v4" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreihasahgbgaxeut3j2dao5ppzg6p4xgyu7sfm2d2dya25xgabd3daq" alt="" width="200" style="object-fit: cover;"/>
+        <img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:k7jpyzyjekw6krtvxxqwmap3/bafkreihtsfcn3ngyywybywnnot3fe2pmjemdszwv3tn7iht6ogwnututpy" alt="" width="200" style="object-fit: cover;"/>
 </p>
 
 ------------
 <p>This README file is generated <b>every 10 hours</b>!
-    <br />Last refresh: Sunday, October 18 at 6:07 AM GMT+2
+    <br />Last refresh: Sunday, October 18 at 3:52 PM GMT+2
     <br /><a href="https://medium.com/@th.guibert/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">Create your own by following this tutorial.</a>
 </p>
 <p><a href="https://github.com/botmaster/botmaster/actions/workflows/main.yaml"><img alt="" src="https://github.com/botmaster/botmaster/actions/workflows/main.yaml/badge.svg" /></a></p>
